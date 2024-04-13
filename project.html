@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharadwaj's Food Corner</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li class="items"><a href="#home">Home</a></li>
+            <li class="items"><a href="#services_container">Services</a></li>
+            <li class="items"><a href="#client_container">Our Clients</a></li>
+            <li class="items"><a href="#contact_box">Contact Us</a></li>
+        </ul>
+        <!-- <div class="search">
+            <input id = "search" type = "text" placeholder=" Search Here">
+        </div> -->
+    </nav>
+
+    <!-- Home section -->
+       
+    <section id="home">
+        <h1 class="h_primary">Welcome to JyotiMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat re?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipi</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <!--Services Section-->
+    <a id="services_section"></a>
+    <section id="services_container">
+        <h1 class="h_primary_center">Our Services</h1>
+        <div class="services">
+            <div class="box">
+                <img src="img\1.png" alt="">
+                <h2 class="h-secondary-center">Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora, maiores et impedit fuga
+                    corrupti, ab temporibus eveniet nisi reiciendis, aut officiis soluta suscipit neque expedita rem
+                    sunt.</p>
+            </div>
+            <div class="box">
+                <img src="img\2.png" alt="">
+                <h2 class="h-secondary-center">Food Catering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis facere eius vitae minima aliquid
+                    alias natus amet dolores laborum, hic molestias? Voluptas numquam sunt repellendus consequatur neque
+                    p!</p>
+            </div>
+            <div class="box">
+                <img src="img\3.png" alt="">
+                <h2 class="h-secondary-center">Food Delivery</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum voluptatem eius rerum soluta
+                    aliquid et, quibusdam blanditiis laborum omnis! Recusandae dolorem omnis adipisci dolores sint quis
+                    quod!</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="client_container">
+        <h1 class="h_primary_center">Our Clients</h1>
+        <div class="clients">
+            <div class="clients_logo"><img src="img\logo1.png" alt="our clients"></div>
+            <div class="clients_logo"><img src="img\logo2.png" alt="our clients"></div>
+            <div class="clients_logo"><img src="img\logo3.png" alt="our clients"></div>
+            <div class="clients_logo"><img src="img\logo4.png" alt="our clients"></div>
+        </div>
+    </section>
+
+    <section id="contact_container">
+        <h1 class="h_primary_center">Contact Us</h1>
+        <div id="contact_box">
+            <form action="Backend.php">
+                
+                    <div class="name">
+                        <label for="fname">Name: </label>
+                        <input type="text" name="Name" id="fname" placeholder="  Mr/Ms" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"> Email: </label>
+                        <input type="email" name="Email" id="email" placeholder="  @gmail.com">
+                    </div>
+                    <div class="phone">
+                        <label for="mobile"> Mobile No: </label>
+                        <input type="number" name="mobile" id="mobile" placeholder="  +91">
+                    </div>
+                    <div class="message">
+                        <label for="About"> Message: </label> <br>
+                        <textarea name="About" cols="30" rows="10"
+                            id="About" placeholder=" Write Your message here"></textarea>
+                    </div>
+                    <label for="">
+                        <button class="btn"> Submit</button>
+                        <button class="btn">Reset</button>
+                    </label>
+                    <br>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            Copyright &copy; www.JyotiMeal.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
